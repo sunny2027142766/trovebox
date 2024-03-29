@@ -1,0 +1,36 @@
+$namespace: 'ai' !default;
+$block-sel: '-' !default;
+$element-sel: '__' !default;
+$modifier-sel: '--' !default;
+@mixin bfc {
+  height: 100%;
+  overflow: hidden;
+}
+
+// ai-block
+@mixin b($block) {
+  $B: #{$namespace + $block-sel + $block};
+  .#{$B} {
+    @content;
+  }
+}
+
+// ai-block__element
+@mixin e($el) {
+  $selector: &;
+  @at-root {
+    #{ $selector + $element-sel + $el } {
+      @content;
+    }
+  }
+}
+
+// ai-block--m
+@mixin m($m) {
+  $selector: &;
+  @at-root {
+    #{ $selector + $modifier-sel + $m } {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ai-platform",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@trovebox/types": "workspace:^",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^4.1.1",
+    "@types/node": "^20.11.30",
+    "@vicons/carbon": "^0.12.0",
+    "@vicons/tabler": "^0.12.0",
+    "naive-ui": "^2.38.1",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
+    "tailwindcss": "^3.4.3"
+  }
+}

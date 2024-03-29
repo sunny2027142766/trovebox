@@ -1,0 +1,9 @@
+dist
+node_modules
+.husky
+.vscode
+.idea
+*.sh
+*.md
+
+packages/**/assets

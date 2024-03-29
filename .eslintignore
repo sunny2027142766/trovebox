@@ -1,0 +1,13 @@
+dist
+node_modules
+.husky
+.vscode
+.idea
+*.sh
+*.md
+
+packages/**/vite.config.ts
+
+.eslintrc.cjs
+.prettierrc.cjs
+.stylelintrc.cjs
