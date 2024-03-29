@@ -100,7 +100,8 @@ import {
   NColorPicker,
   NWatermark,
   NEmpty,
-  NCollapseTransition
+  NCollapseTransition,
+  NGlobalStyle
 } from 'naive-ui'
 
 const naive = create({
@@ -204,7 +205,8 @@ const naive = create({
     NColorPicker,
     NWatermark,
     NEmpty,
-    NCollapseTransition
+    NCollapseTransition,
+    NGlobalStyle
   ]
 })
 

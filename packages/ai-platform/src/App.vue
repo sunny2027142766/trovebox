@@ -1,11 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-  <NConfigProvider class="h-full">
+  <NConfigProvider class="h-screen">
     <n-message-provider>
       <RouterView />
     </n-message-provider>
-    <NGlobalStyle />
+    <!-- <NGlobalStyle /> -->
   </NConfigProvider>
 </template>
 

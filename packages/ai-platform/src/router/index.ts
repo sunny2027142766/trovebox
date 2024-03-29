@@ -30,7 +30,7 @@ const routePC: RouteRecordRaw[] = [
     path: '/',
     name: 'home',
     component: Layout,
-    redirect: '/chat',
+    redirect: '/login',
     meta: {
       title: '主页',
       icon: () => h(NIcon, null, { default: () => h(Home) })
